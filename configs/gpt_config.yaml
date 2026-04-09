@@ -1,0 +1,24 @@
+# GPT-2 Training Configuration
+
+# ==========================================
+# Paths (Path settings)
+# !!Please modify the items below to match your local environment and dataset paths!!
+# ==========================================
+tokenizer_path: "your/custom/tokenizer/path"  # Or a Hugging Face model name (e.g., "gpt2")
+checkpoint_base_dir: "./models/gpt2/checkpoints"
+word_checkpoint_dir: "./models/gpt2/word_checkpoints"
+
+# Dataset paths for each phase (JSON format)
+phases:
+  easy: "./data/phase_1_easy.json"
+  medium: "./data/phase_2_medium.json"
+  hard: "./data/phase_3_hard.json"
+
+# ==========================================
+# Hyperparameters (training settings for paper reproduction)
+# ==========================================
+seed: 107
+num_epochs: 10
+batch_size: 8
+gradient_accumulation_steps: 4
+learning_rate: 5.0e-5
