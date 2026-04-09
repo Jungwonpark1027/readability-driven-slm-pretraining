@@ -7,7 +7,7 @@
 
 This repository contains the official PyTorch implementation of the pretraining pipeline for the paper **"A Readability-Driven Curriculum Learning Method for Data-Efficient Small Language Model Pretraining"** (Published in *Mathematics*, MDPI).
 
-## 📖 Overview
+## Overview
 
 Large language models (LLMs) demand substantial computational and data resources, highlighting the need for efficient training approaches for small language models (SLMs). While Curriculum Learning (CL) based on linguistic difficulty has been explored, previous methods relying on complex linguistic indices are often computationally expensive and difficult to interpret.
 
@@ -15,7 +15,7 @@ Inspired by the cognitive and linguistic efficiency observed in human language a
 
 This repository provides the pipeline to replicate the **Curriculum Pretraining** phase of our proposed methodology.
 
-## 🧠 Methodology: How it Works
+## Methodology: How it Works
 
 To fully replicate the paper's methodology, the process is divided into two main steps: Data Rearrangement (Dataset Preparation) and Curriculum Pretraining (This Repository).
 
@@ -56,7 +56,7 @@ Once your dataset is arranged by difficulty, this repository handles the curricu
 └── requirements.txt         # Required Python packages
 ```
 
-## 🚀 Quick Start  
+## Quick Start  
 
 ### 1. Requirements
 Install the required dependencies:
@@ -90,7 +90,7 @@ bash scripts/train.sh gpt2
 bash scripts/train.sh bert
 ```
 
-## 📝 Citation
+## Citation
 If you find this repository or our methodology useful for your research, please cite our paper:
 
 ```bibtex
@@ -107,6 +107,6 @@ If you find this repository or our methodology useful for your research, please 
 }
 ```
 
-## 📜 License
+## License
 * **Code License:** The code in this repository is licensed under the [MIT License](LICENSE).
 * **Paper License:** The published article is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
