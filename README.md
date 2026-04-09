@@ -21,7 +21,7 @@ To fully replicate the paper's methodology, the process is divided into two main
 
 ### 1. Data Rearrangement (Dataset Preparation)
 
-![Data Rearrangement Method](assets/figure_final.png)
+![Data Rearrangement Method](images/figure_final.png)
 *(Figure 1: Overview of the Readability-Driven Data Rearrangement Process)*
 
 As illustrated in the figure above, the core of our approach lies in rearranging the training data based on readability. Before running the training pipeline, the original corpus must be processed:
