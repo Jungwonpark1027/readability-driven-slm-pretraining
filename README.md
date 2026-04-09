@@ -54,9 +54,9 @@ Once your dataset is arranged by difficulty, this repository handles the curricu
 │   └── utils.py             # Word-count tracking and checkpointing callback
 ├── main.py                  # Main entry point for curriculum training loop
 └── requirements.txt         # Required Python packages
+```
 
-
-## 🚀 Quick Start
+## 🚀 Quick Start  
 
 ### 1. Requirements
 Install the required dependencies:
