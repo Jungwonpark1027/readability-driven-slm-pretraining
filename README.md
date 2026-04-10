@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Data Preparation
-Following the methodology described above, prepare your JSON datasets sorted by FRE scores. Your files should be formatted with a `text` key: `{"text": "..."}`.
+Following the methodology described above, prepare your JSON datasets sorted by FRE scores. Code for generating the dataset will be released soon.
 
 ### 3. Configuration
 Open `configs/gpt_config.yaml` or `configs/bert_config.yaml` and update the `[TODO]` sections to match your local paths:
